@@ -1,0 +1,32 @@
+{
+  "ru": {
+    "Check": "**Проверка ...**",
+    "Umis_Check_Yes": "**Категория** ``Umis`` **существует.**",
+    "Umis_Check_No": "**Категории** ``Umis`` **не существует.**",
+    "Umis_Check": "**Категория** ``Umis`` **получена.**",
+    "Umis_Check_Created": "**Категория** ``Umis`` **создана.**",
+    "Umis_Check_Log_Yes": "**Канал** ``📜logs`` **существует.**",
+    "Umis_Check_Log_Created": "**Канал** ``📜logs`` **создан.**",
+    "Umis_Check_Log_No": "**Канала** ``📜logs`` **не существует.**",
+    "Umis_Check_Error_Yes": "**Канал** ``📜errors`` **существует.**",
+    "Umis_Check_Error_Created": "**Канал** ``📜errors`` **создан.**",
+    "Umis_Check_Error_No": "**Канала** ``📜errors`` **не существует.**",
+    "Complete": "**Успешно.**",
+    "Error": "**Ошибка.**"
+  },
+  "en": {
+    "Check": "**Check ...**",
+    "Umis_Check_Yes": "**Category** ``Umis`` **exists.**",
+    "Umis_Check_No": "**Categories** ``Umis`` **does not exists.**",
+    "Umis_Check": "**Category** ``Umis`` **received.**",
+    "Umis_Check_Created": "**Category** ``Umis`` **created.**",
+    "Umis_Check_Log_Yes": "**Channel** ``📜logs`` **exists.**",
+    "Umis_Check_Log_Created": "**Channel** ``📜logs`` **created.**",
+    "Umis_Check_Log_No": "**Channel** ``📜logs`` **does not exists.**",
+    "Umis_Check_Error_Yes": "**Channel** ``📜errors`` **exists.**",
+    "Umis_Check_Error_Created": "**Channel** ``📜errors`` **created.**",
+    "Umis_Check_Error_No": "**Channel** ``📜errors`` **does not exists.**",
+    "Complete": "**Successfully.**",
+    "Error": "**Error.**"
+  }
+}
