@@ -11,7 +11,7 @@ class Help(commands.Cog):
                             color=0x16ed07)
         emb.add_field(name='.sping', value="Check your ping",
                       inline=False)
-        emb.add_field(name='.sprofile', value="Check your profile",
+        emb.add_field(name='.sprofile', value="",
                       inline=False)
         emb.add_field(name='.sslap', value="Just Fun:)",
                       inline=False)
