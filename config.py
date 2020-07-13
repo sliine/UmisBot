@@ -20,12 +20,10 @@ connection = pymysql.connect(host=config.get('host'),
                              cursorclass=DictCursor)
 
 #Reactions roles
-Post_Id = 0 #id your post
-Roles = {
-    'emoji': #id your roles,
-    'emoji': #id your roles,
-    'emoji': #id your roles,
-    'emoji': #id your roles,
+POST_ID = #post id
+
+ROLES = {
+    'smile roles': #id your roles,
 }
-Excroles = {}
-Max_Roles_Per_User = 3
+    
+MAX_ROLES_PER_USER = 3
