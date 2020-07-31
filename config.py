@@ -20,10 +20,13 @@ connection = pymysql.connect(host=config.get('host'),
                              cursorclass=DictCursor)
 
 #Reactions roles
-POST_ID = #post id
+POST_ID = 731981491076333691
 
 ROLES = {
-    'smile roles': #id your roles,
+    '💩': 715990789074714696,  #turd-code
+    '<:jaba_jaba:731979672614731777>': 731975982256488469,  #Жаба
+    '<:kchemusnyatsyalyagushki1:731979889154195566>': 731976126393745450,  #Главная Жаба
+    '🤖': 731976556528009237,  #Отбитый
 }
     
 MAX_ROLES_PER_USER = 3
