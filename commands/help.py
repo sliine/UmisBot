@@ -7,11 +7,11 @@ class Help(commands.Cog):
 
     @commands.command()
     async def help(self, ctx):
-        emb = discord.Embed(title='Help commands',
+        emb = discord.Embed(title='Help commands for bots',
                             color=0x16ed07)
         emb.add_field(name='.sping', value="Check your ping",
                       inline=False)
-        emb.add_field(name='.sprofile', value="",
+        emb.add_field(name='.sprofile', value="Check information or your profile",
                       inline=False)
         emb.add_field(name='.sslap', value="Just Fun:)",
                       inline=False)

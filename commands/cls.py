@@ -8,7 +8,7 @@ class Clear(commands.Cog):
     @commands.command()
     @commands.has_permissions(manage_messages=True)
     async def cls(self, ctx, amount: int = 5):
-        await ctx.channel.purge(limit=amount)
+        await ctx.message.delete()
 
 
 def setup(client):

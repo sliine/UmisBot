@@ -17,9 +17,9 @@ class Role(commands.Cog):
         member = discord.utils.get(message.guild.members, id=payload.user_id)
         emoji = None
         try:
-            emoji = str(payload.emoji)  # эмоджик который выбрал юзер
+            emoji = str(payload.emoji)
             role = discord.utils.get(message.guild.roles, id=config.ROLES[emoji])  # объект выбранной роли (если есть)
-            roles = [config.ROLES[role_s] for role_s in config.ROLES]
+            roles = list(config.ROLES.values())
             sp = len([i for i in member.roles if i.id in roles])
             print(sp)
             if sp < config.MAX_ROLES_PER_USER:
